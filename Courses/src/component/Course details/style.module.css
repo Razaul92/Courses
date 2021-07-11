@@ -1,0 +1,37 @@
+.detailContainer{
+    width:50rem;
+    margin:6rem 15rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  width: 10rem;
+  margin-top: 2rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #11acac;
+  border-color: #11acac;
+}
+
+@media only screen and (max-width: 768px){
+  .btn {
+  font-size: 1rem;
+  width: 8rem;
+  margin: 2rem 0 0 0rem;
+  padding: 0.75rem 1rem;
+}
+
+.detailContainer{
+    width:25rem;
+    margin:6rem 1rem;
+}
+}

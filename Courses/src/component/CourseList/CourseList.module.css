@@ -1,0 +1,140 @@
+.Container{
+    width:60rem;
+    margin: 6rem 0 0 10rem;
+   
+}
+
+.courseContainer{
+     display:flex;
+     width:50rem;
+     align-content: center;
+     justify-content: center;
+}
+.left{
+    width:10rem;
+    border: 1px solid gray;
+    margin:0.5rem;
+    border-radius: 1rem;
+}
+.left img{
+    height:12rem;
+    width:9rem;
+    padding: 0.5rem;
+
+}
+
+.right{
+    width:25rem;
+    margin:0.5rem;
+     border: 1px solid gray;
+      padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.right h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.right p {
+    font-size: 1rem;
+}
+
+.right span {
+    font-size: 1rem;
+    color: grey;
+}
+
+.icon{
+    color:orange;
+}
+.right .rating{
+    font-size: 1rem;
+    color: rgb(182, 17, 17);
+    margin-right:1rem ;
+}
+
+
+.coursesLoading {
+  text-align: center;
+  color: teal;
+  font-size: 3rem;
+}
+
+.coursesError {
+  text-align: center;
+  color: rgb(194, 5, 5);
+  font-size: 3rem;
+}
+
+
+.btm {
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  width: 10rem;
+  margin: 1rem 0 0 35rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+.btm:hover,
+.btm:active {
+  background-color: #11acac;
+  border-color: #11acac;
+}
+
+
+@media only screen and (max-width: 768px){
+  .Container{
+    width:30rem;
+    margin: 6rem 0 0 0rem;
+   
+}
+
+.courseContainer{
+     width:26rem;
+}
+.left{
+    width:8rem;
+    margin:0.5rem;
+}
+.left img{
+    height:auto;
+    width:7rem;
+    padding: 0.5rem;
+
+}
+
+.right{
+    width:15rem;
+    margin:0.5rem;  
+}
+
+.right h1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.right p {
+    font-size: 0.8rem;
+}
+
+.right span {
+    font-size: 0.8rem;
+   
+}
+.right .rating{
+    font-size: 0.8rem;
+    color: rgb(182, 17, 17);
+    margin-right:1rem ;
+}
+
+.btm {
+  font-size: 1rem;
+  width: 8rem;
+  margin: 2rem 0 0 0rem;
+  padding: 0.75rem 1rem;
+}
+}
